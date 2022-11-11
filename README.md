@@ -1,4 +1,4 @@
-### About
+## About
 Here we define the cat language with the following syntax:
 |Code|Instruction|Description|
 | ----- | ----- | ----- |
@@ -15,12 +15,18 @@ Here we define the cat language with the following syntax:
 |10|MeOw|Print value of current memory block to STDOUT as an integer.|
 |11|MeoW|Read an integer from STDIN and put it into the current memory block.|
 
-### TODO
-1. finish the compiler from cat to cow
-2. finish the driver that executes cat
-3. re-write catsay in cat
+## Example
+Try out the [catlang interpreter](https://github.com/hxu296/catlang/blob/main/catlang.cpp) and the hello world program that prints "Hello, world!" to STDOUT:
+```bash
+g++ -o catlang catlang.cpp
+./catlang helloworld.cat
+```
+The [helloword.cat](https://github.com/hxu296/catlang/blob/main/helloworld.cat) program:
+```
+mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEow mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEow mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEow mEow mEoW mEoW mEoW mEow Meow mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEow mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEow mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEow mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEow mEoW mEoW mEoW mEow mEOw mEOw mEOw mEOw mEOw mEOw mEow mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEOw mEow Meow mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEow
+```
 
-### Citatation
-1. Our new family member ragdoll momo（桃桃）
-2. https://bigzaphod.github.io/COW/
-3. https://github.com/muhammadmuzzammil1998/catsay
+## Acknowledgement
+Inspired by *[the COW project](https://bigzaphod.github.io/COW/)* and by our family members momo (first) and miumiu (second):
+![momo](./assets/hello_from_momo.jpeg)
+![miumiu](./assets/hello_from_miumiu.jpeg)
