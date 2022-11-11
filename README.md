@@ -27,6 +27,6 @@ mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW mEoW 
 ```
 
 ## Acknowledgement
-Inspired by *[the COW project](https://bigzaphod.github.io/COW/)* and by our family members momo (first) and miumiu (second):
+Inspired by *[the COW project](https://bigzaphod.github.io/COW/)* and by our family members **momo** (first) and **miumiu** (second):
 ![momo](./assets/hello_from_momo.jpeg)
 ![miumiu](./assets/hello_from_miumiu.jpeg)
